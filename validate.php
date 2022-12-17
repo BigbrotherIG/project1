@@ -26,7 +26,5 @@
             $failed = "Mail was not sent!";
         }
 
-     
-
     }
 ?>
