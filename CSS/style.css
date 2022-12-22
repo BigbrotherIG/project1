@@ -119,8 +119,7 @@ li a:hover {
 }
 
 .resume{
-    margin: 20px 0;
-    /* margin-top: 18px; */
+    margin: 18px 0;
 }
 
 .resume a {
@@ -494,6 +493,13 @@ footer p {
 }
 
 /* Media query */
+@media (max-width: 984px) {
+    .txt-color {
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 855px){
     .about-me {
         display: flex;
@@ -633,18 +639,10 @@ footer p {
     }
 }
 
-
 @media (max-width: 380px) {
     .txt-color {
         color: #fff;
         font-size: 17px;
     }
 
-}
-
-@media (max-width: 984px) {
-    .txt-color {
-        color: #fff;
-        font-size: 18px;
-    }
 }
