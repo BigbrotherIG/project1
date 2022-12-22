@@ -113,8 +113,14 @@ li a:hover {
     animation: slideFromRight 2s ease-in;
 }
 
+.resume-flex {
+    display: flex;
+    column-gap: 10px;
+}
+
 .resume{
     margin: 20px 0;
+    /* margin-top: 18px; */
 }
 
 .resume a {
@@ -501,6 +507,7 @@ footer p {
         width: 380px;
     }
 }
+
 @media screen and (max-width:768px) {
     
     .main-header {
@@ -567,6 +574,11 @@ footer p {
         flex-direction: column;
     }
 
+    .resume-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
     /* Contact Me */
     .contact-cards {
         grid-template-columns: repeat(1, 1fr);
@@ -629,10 +641,10 @@ footer p {
     }
 
 }
+
 @media (max-width: 984px) {
     .txt-color {
         color: #fff;
         font-size: 18px;
     }
-
 }
