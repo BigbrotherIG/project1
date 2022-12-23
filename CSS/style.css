@@ -278,7 +278,6 @@ li a:hover {
     align-items: center;
 }
 .project-done img {
-    /* max-width: 450px; */
     height: auto;
     cursor: pointer;
     object-fit: fill;
@@ -289,8 +288,6 @@ li a:hover {
  .project-done img:hover {
     cursor: pointer;
     transform: scale(1.03);
-    animation: project .5s;
-    animation-iteration-count: 1;
 }
 
 /* Contact Section */
