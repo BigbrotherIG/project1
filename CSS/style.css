@@ -501,6 +501,10 @@ footer p {
 }
 
 @media (max-width: 855px){
+    .resume-flex {
+        display: flex;
+        flex-direction: column;
+    }
     .about-me {
         display: flex;
         align-items: flex-start;
