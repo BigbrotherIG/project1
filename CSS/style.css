@@ -85,7 +85,7 @@ li a:hover {
     border-bottom: 2px solid #ccc;
     color: var(--light-dark-txt);
     padding-bottom: 2px;
-    transition: all .5s;   
+    transition: all .5s ease-in-out;   
 }
 
 /* Hero Section */
@@ -106,7 +106,7 @@ li a:hover {
 
 .hero-text {
     overflow: hidden;
-    animation: slideFromLeft 2s ease-in;
+    animation: slideFromLeft 1s ease-in;
 }
 
 .hero-img {
