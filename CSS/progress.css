@@ -46,4 +46,9 @@
         margin: 5px;
         margin-right: 10px;
     }
+
+    nav .nav-links.bg {
+        background-color: #fff;
+        color: #000;
+    }
 }
