@@ -1,0 +1,45 @@
+
+.main-header {
+    background-color: #ffffff;
+    color: #000;
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.253);
+}
+
+.main-header.bg {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.253);
+}
+
+.nav-links li {
+    margin: 0 5px;
+    color: #000;
+}
+
+/* Showcase Section */
+.showcase {
+    height: 100vh;
+    margin: 0 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.showcase h1 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .showcase {
+        margin-top: 50px;
+        gap: 10px;  
+    }
+
+    .nav-links li {
+        margin: 5px;
+        margin-right: 10px;
+    }
+}
